@@ -8,6 +8,7 @@
     <meta name="author" content="Intranetproject">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.css">
     <link rel="stylesheet" href="css/momentum.css">
 </head>
 
@@ -17,18 +18,18 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Momentum
+                        <i class="mdi mdi-star"></i>Momentum
                     </a>
                 </li>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a class="mdi mdi-home" href="#">Dashboard</a>
                 </li>
                 <li>
-                    <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Module<i></i></a>
-                    <div class="collapse" id="collapseExample">
+                    <a class="collapseable-nav" data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample">Module<i class="pull-right mdi mdi-plus"></i></a>
+                    <div class="collapse" id="collapse">
                         <ul>
                             <li>
-                                <a href="#">this and that</a>
+                                <a href="#"><i class="mdi mdi-star"></i>this and that</a>
                             </li>
                             <li>
                                 <a href="#">this and that</a>
@@ -48,7 +49,7 @@
             </ul>
         </div>
         <div class="website-content">
-          
+
         </div>
     </div>
     <!-- Bootstrap JavaScript & jQuery -->

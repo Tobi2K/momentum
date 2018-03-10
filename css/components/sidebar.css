@@ -20,11 +20,27 @@
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+#sidebar-wrapper .sidebar-nav .sidebar-brand {
+  padding-top: 50px;
+  font-size: 1.7em;
+  padding-bottom: 50px;
+}
+#sidebar-wrapper .sidebar-nav .collapseable-nav i {
+  float: right;
+}
+#sidebar-wrapper .sidebar-nav {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 #sidebar-wrapper .sidebar-nav li {
   list-style-type: none;
+  font-size: 1.2em;
 }
 #sidebar-wrapper .sidebar-nav li a {
   color: var(--gray-dark);
+}
+#sidebar-wrapper .sidebar-nav li a::before {
+  padding-right: 15px;
 }
 #wrapper #sidebar-wrapper {
   width: 250px;
