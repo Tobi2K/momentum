@@ -14,13 +14,18 @@
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #000;
+  background: var(--light);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
+#sidebar-wrapper .sidebar-nav li {
+  list-style-type: none;
+}
+#sidebar-wrapper .sidebar-nav li a {
+  color: var(--gray-dark);
+}
 #wrapper #sidebar-wrapper {
   width: 250px;
 }
