@@ -1,0 +1,6 @@
+.topnav {
+  height: 50px;
+  margin-left: 250px;
+  width: 100%;
+  background-color: var(--blue);
+}
