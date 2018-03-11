@@ -1,6 +1,21 @@
 .topnav {
-  height: 50px;
+  height: 80px;
   margin-left: 250px;
   width: 100%;
-  background-color: var(--blue);
+  background-color: var(--gray-dark);
+}
+
+.topnav .topnav-ul {
+    list-style-type: none;
+    
+}
+.topnav .topnav-ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.topnav .topnav-ul li a{
+    color: white;
+}
+.topnav .topnav-ul li a:hover {
+    text-decoration: none;
 }
