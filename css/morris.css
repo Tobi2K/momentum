@@ -23,3 +23,7 @@
     white-space: nowrap;
     margin: 0.1em 0
 }
+
+.outer-card-wrapper {
+    margin: 0 !important;
+}

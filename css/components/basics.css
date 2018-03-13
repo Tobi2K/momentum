@@ -5,7 +5,7 @@ body {
 }
 
 .website-content {
-    width: 100%;
+    width: calc(100% - 250px);
     height: 10em;
     margin-left: 250px;
 }
