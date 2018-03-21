@@ -10,10 +10,14 @@ Hihi
 @import "components/sidebar.css";
 @import "components/topnav.css";
 html {
-    height: 100%;
-}
-
-body {
     min-height: 100%;
-    margin: 0;
+    display: inline-block;
+}
+body, .wrapper, .website-content, nav {
+    position: relative;
+  height: auto;
+  min-height: 100% !important;
+}
+.inner {
+    padding-top: 56px !important;
 }
