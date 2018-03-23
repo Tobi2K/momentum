@@ -14,13 +14,8 @@ html {
     display: inline-block;
 }
 
-body,
-.wrapper,
-.website-content,
-nav {
+body, .wrapper, .website-content, nav {
     position: relative;
-    height: auto;
-    min-height: 100% !important;
 }
 
 .topcard {
