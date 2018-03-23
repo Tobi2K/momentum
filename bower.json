@@ -1,0 +1,17 @@
+{
+  "name": "momentum",
+  "homepage": "https://github.com/Tobi2K/momentum",
+  "authors": [
+    "bennetgallein <bennet@intranetproject.net>"
+  ],
+  "description": "An Admin Framework",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
